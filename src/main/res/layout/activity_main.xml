@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" android:background="#010101">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lanterna_texto" android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" android:textAlignment="center" android:textColor="#fff"
+        android:id="@+id/textView" android:gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lanterna_off"
+            android:id="@+id/button_lanterna_on_off" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_thanks"
+            android:id="@+id/textView2"
+            android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" android:textColor="#fff" android:textStyle="italic"
+            android:gravity="center"/>
+
+</RelativeLayout>

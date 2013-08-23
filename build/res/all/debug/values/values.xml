@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <string name="action_settings">Sobre</string>
+    <string name="app_name">Lanterna Simples</string>
+    <string name="hello_world">Olá Mundo</string>
+    <string name="lanterna_off">Ligar!</string>
+    <string name="lanterna_on">Desligar!</string>
+    <string name="lanterna_texto">Clique no botão para Ativar/Desativar a Luz</string>
+    <string name="sobre_lanterna_simples">        Lanterna Simples - Versão 1.0\n
+        App gratuito, simples e direto! Faz o serviço\n
+        App desenvolvido por @joao_neto\n
+        COMSOLiD - 2013 - OpenSource\n
+        Código fonte em github.com/joao-gsneto</string>
+    <string name="texto_thanks">        Versão 1.0 - www.joaoneto.blog.br/lanterna-simples-android</string>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
